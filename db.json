@@ -1,0 +1,77 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Transformers - Rise of the Beast",
+      "genre": "Action", 
+      "image": "Week 12 Project - Movies/Images/Transformers- Rise of the Beast.jpeg"
+      
+    },
+    {
+      "id": 2,
+      "title": "A Star Is Born",
+      "genre": "Drama",
+      "image": "Week 12 Project - Movies/Images/A Star Is Born.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "The Hangover",
+      "genre": "Comedy", 
+      "image": "Week 12 Project - Movies/Images/Hangover.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Friends with Benefits",
+      "genre": "Rom-Com", 
+      "image": "Week 12 Project - Movies/Images/Friends with Benefits.jpeg"
+    },
+    {
+      "id": 5,
+      "title": "The Old Guards",
+      "genre": "Action",
+      "image": "Week 12 Project - Movies/Images/The Old Guards.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Fences",
+      "genre": "Drama", 
+      "image": "Week 12 Project - Movies/Images/Fences.jpeg"
+    },
+    {
+      "id": 7,
+      "title": "Superbad",
+      "genre": "Comedy", 
+      "image": "Week 12 Project - Movies/Images/SuperBad.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Pretty Woman",
+      "genre": "Rom-Com", 
+      "image": "Week 12 Project - Movies/Images/PrettyWoman.jpeg"
+    }, 
+    {
+      "id": 9,
+      "title": "The Gray Man",
+      "genre": "Action", 
+      "image": "Week 12 Project - Movies/Images/The Gray Man.jpeg"
+    },
+    {
+      "id": 10,
+      "title": "Moonlight",
+      "genre": "Drama", 
+      "image": "Week 12 Project - Movies/Images/Moonlight.jpeg"
+    }, 
+    {
+      "id": 11,
+      "title": "Friday After Next",
+      "genre": "Comedy", 
+      "image": "Week 12 Project - Movies/Images/Friday After Next.jpeg"
+    }, 
+    {
+      "id": 12,
+      "title": "American Pie",
+      "genre": "Rom-Com", 
+      "image": "Week 12 Project - Movies/Images/American Pie.jpeg"
+    }
+  ]
+}

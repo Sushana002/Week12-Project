@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database CRUD Application</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="project12.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BLOCK BUSTER'S CRUD-APP</a>
+          <button 
+            class="navbar-toggler" 
+            type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Action</a>
+              <a class="nav-link" href="#">Drama</a>
+              <a class="nav-link" href="#">Comedy</a>
+              <a class="nav-link" href="#">Rom-Com</a>
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    
+    <!--Movie Categories-->
+    <div class="container mt-4">
+        <form id="movie-form" class="mb-4">
+            <div class="form-group">
+                <label for="movie-title">Movie Title:</label>
+                <input type="text" class="form-control" id="movie-title" required>
+            </div>
+            <div class="form-group">
+                <label for="movie-genre">Genre:</label>
+                <select class="form-control" id="movie-genre" required>
+                    <option value="Action">Action</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Rom-Com">Rom-Com</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="movie-image">Image URL:</label>
+                <input type="url" class="form-control" id="movie-image" placeholder="Enter image URL" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Movie</button>
+        </form>
+
+        <ul id="movie-list" class="list-group">
+            <!-- Movies will be populated here -->
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="project12.js"></script>
+</body>
+</html>
